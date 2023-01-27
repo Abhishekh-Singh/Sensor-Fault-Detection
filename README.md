@@ -11,3 +11,18 @@ The Data is provided by Scania, a major Swedish manufacturer, focusing on commer
 In this project, the system in focus is the Air Pressure system (APS) which generates pressurized air that are utilized in various functions in a truck, such as braking and gear changes. The datasets positive class corresponds to component failures for a specific component of the APS system. The negative class corresponds to trucks with failures for components not related to the APS system.
 
 The problem is to reduce the cost due to unnecessary repairs. So it is required to minimize the false predictions.
+
+## Tech Stack Used
+1. Python 
+2. FastAPI 
+3. Machine learning algorithms
+4. Docker
+5. MongoDB
+
+## Infrastructure Required.
+
+1. AWS S3
+2. AWS EC2
+3. AWS ECR
+4. Git Actions
+5. Terraform
