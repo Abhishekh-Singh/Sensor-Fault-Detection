@@ -1,2 +1,2 @@
 DATABASE_NAME = "abhishek"
-COLLECTION_NAME = "sensor"
+COLLECTION_NAME = "sensors"
