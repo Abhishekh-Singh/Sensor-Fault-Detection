@@ -17,6 +17,23 @@ Through data analysis and feature engineering, we will identify the key contribu
 
 The problem is to reduce the cost due to unnecessary repairs. So it is required to minimize the false predictions.
 
+ -- Challenge metric  
+
+     Cost-metric of miss-classification:
+
+     Predicted class |      True class       |
+                     |    pos    |    neg    |
+     -----------------------------------------
+      pos            |     -     |  Cost_1   |
+     -----------------------------------------
+      neg            |  Cost_2   |     -     |
+     -----------------------------------------
+     Cost_1 = 10 and cost_2 = 500
+     
+     Total_cost = Cost_1*No_Instances + Cost_2*No_Instances.
+     
+     Create a model which accurately predicts and minimizes [the cost of] failures?
+
 ## Tech Stack Used
 1. Python 
 2. FastAPI 
